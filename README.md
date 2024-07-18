@@ -1,0 +1,32 @@
+# JavaScript Projects per Day Learning Path
+
+- [x] **Day 1:** Love Calculator App 🧮
+- [ ] **Day 2:** BMI Calculator App 🧮
+- [ ] **Day 3:** Loan Calculator App 💰
+- [ ] **Day 4:** Weather App 🌦️
+- [ ] **Day 5:** Counter App 🔢
+- [ ] **Day 6:** Countdown Timer App ⏳
+- [ ] **Day 7:** Palindrome Checker App 🔄
+- [ ] **Day 8:** Random Quote Generator App 📜
+- [ ] **Day 9:** To-Do List App 📝
+- [ ] **Day 10:** Quiz App 🧠
+- [ ] **Day 11:** RGB color generator App 🎨
+- [ ] **Day 12:** Rock, Paper, Scissors Game 🎮
+- [ ] **Day 13:** Tic Tac Toe Game 🎮
+- [ ] **Day 14:** Tip Calculator App 💰
+- [ ] **Day 15:** Time and Date widget ⏰
+- [ ] **Day 16:** Random Joke Generator App 🃏
+- [ ] **Day 17:** Random Password Generator App 🔐
+- [ ] **Day 18:** Get Unicode character value App 🌐
+- [ ] **Day 19:** Age Calculator App 🧮
+- [ ] **Day 20:** Random Number Generator App 🎲
+- [ ] **Day 21:** Magic 8 Ball App 🎱
+- [ ] **Day 22:** Dynamic Background Color App 🌈
+- [ ] **Day 23:** Random Image Generator App 🖼️
+- [ ] **Day 24:** Random Word Generator App 📖
+- [ ] **Day 25:** Digital Clock App ⏰
+- [ ] **Day 26:** Analog Clock App ⏰
+- [ ] **Day 27:** Find the hidden word Game 🎮
+- [ ] **Day 28:** Find the hidden number Game 🎮
+- [ ] **Day 29:** Find the hidden image Game 🎮
+- [ ] **Day 30:** Developer Portfolio Website 🌐
