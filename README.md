@@ -1,7 +1,7 @@
 # JavaScript Projects per Day Learning Path
 
 - [x] **Day 1:** Love Calculator App 🧮
-- [ ] **Day 2:** BMI Calculator App 🧮
+- [x] **Day 2:** BMI Calculator App 🧮
 - [ ] **Day 3:** Loan Calculator App 💰
 - [ ] **Day 4:** Weather App 🌦️
 - [ ] **Day 5:** Counter App 🔢
@@ -18,7 +18,7 @@
 - [ ] **Day 16:** Random Joke Generator App 🃏
 - [ ] **Day 17:** Random Password Generator App 🔐
 - [ ] **Day 18:** Get Unicode character value App 🌐
-- [ ] **Day 19:** Age Calculator App 🧮
+- [x] **Day 19:** Age Calculator App 🧮
 - [ ] **Day 20:** Random Number Generator App 🎲
 - [ ] **Day 21:** Magic 8 Ball App 🎱
 - [ ] **Day 22:** Dynamic Background Color App 🌈
