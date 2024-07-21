@@ -2,9 +2,9 @@
 
 - [x] **Day 1:** Love Calculator App 🧮
 - [x] **Day 2:** BMI Calculator App 🧮
-- [ ] **Day 3:** Loan Calculator App 💰
+- [x] **Day 3:** Loan Calculator App 💰
 - [ ] **Day 4:** Weather App 🌦️
-- [ ] **Day 5:** Counter App 🔢
+- [x] **Day 5:** Counter App 🔢
 - [ ] **Day 6:** Countdown Timer App ⏳
 - [ ] **Day 7:** Palindrome Checker App 🔄
 - [ ] **Day 8:** Random Quote Generator App 📜
@@ -17,7 +17,7 @@
 - [ ] **Day 15:** Time and Date widget ⏰
 - [ ] **Day 16:** Random Joke Generator App 🃏
 - [ ] **Day 17:** Random Password Generator App 🔐
-- [ ] **Day 18:** Get Unicode character value App 🌐
+- [x] **Day 18:** Get Unicode character value App 🌐
 - [x] **Day 19:** Age Calculator App 🧮
 - [ ] **Day 20:** Random Number Generator App 🎲
 - [ ] **Day 21:** Magic 8 Ball App 🎱

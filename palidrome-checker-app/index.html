@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker App | Ajay Dhangar</title>
+    <meta name="description" content="Check if a word or phrase is a palindrome with Ajay Dhangar's advanced Palindrome Checker app.">
+    <meta name="keywords" content="palindrome checker, web app, Ajay Dhangar">
+    <meta name="author" content="Ajay Dhangar">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+   <div class="container">
+        <header class="header">
+            <h1>Palindrome Checker</h1>
+        </header>
+        <main>
+            <form id="palindrome-form" class="form">
+                <div class="form-group">
+                    <label for="text">Enter a word or phrase</label>
+                    <input type="text" id="text" class="form-control" placeholder="Enter a word or phrase" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Check</button>
+                </div>
+            </form>
+
+            <div id="results" class="results hidden">
+                <h3>Results</h3>
+                <div class="result-group">
+                    <label for="text-result">Text</label>
+                    <input type="text" id="text-result" class="form-control" disabled>
+                </div>
+                <div class="result-group">
+                    <label for="is-palindrome">Is Palindrome</label>
+                    <input type="text" id="is-palindrome" class="form-control" disabled>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Designed by <a href="https://www.linkedin.com/in/ajay-dhangar/" target="_blank">Ajay Dhangar</a></p>
+        </footer>
+
+    </div>
+
+    <script src="./src.js"></script>
+    
+</body>
+</html>

@@ -1,129 +1,80 @@
+/* Reset some basic styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #ff758c;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input {
+  padding: 15px;
+  border: 2px solid #ff758c;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #ff7eb3;
+}
+
+.btn {
+  padding: 15px;
+  background: #ff758c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #ff7eb3;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  color: #ff758c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  body {
-    font-family: "Arial", sans-serif;
-    background: linear-gradient(135deg, rgba(255, 105, 180, 0.2), rgba(255, 182, 193, 0.8)),
-      url("https://img.freepik.com/free-photo/dark-style-valentines-day-celebration_23-2151290004.jpg")
-      no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  main {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 500px;
-    padding: 20px;
-    border-radius: 12px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.47);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .container::before {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(45deg, #ed5b5b, #3bc9c4, #31373b, #ff1414);
-    z-index: -1;
-    filter: blur(10px);
-    animation: borderAnimation 5s infinite linear;
-  }
-  
-  .container::after {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-    background: linear-gradient(45deg, #ff1414, #31373b, #3bc9c4, #ed5b5b);
-    z-index: -2;
-  }
-  
-  @keyframes borderAnimation {
-    0% {
-      transform: translate(0, 0);
-    }
-    50% {
-      transform: translate(20px, 20px);
-    }
-    100% {
-      transform: translate(0, 0);
-    }
-  }
-  
-  .title {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    background: linear-gradient(45deg, #fff, #18f2dcdf, #fff, #18f2dcdf , #fff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    font-weight: 700;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.697);
-    
-  }
-  
-  .form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 20px;
-  }
-  
-  .form input {
-    padding: 12px;
-    background: rgba(255, 255, 255, 0.6);
-    border: 1px solid #ff1493;
-    border-radius: 5px;
-    width: 100%;
-    color: #333;
-    font-size: 1rem;
-  }
-  
-  .form input::placeholder {
-    color: #ff69b4;
-  }
-  
-  .form button {
-    padding: 12px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    background: linear-gradient(45deg, #ff1493, #ff69b4);
-    color: #fff;
-    font-size: 1rem;
-    transition: background 0.3s ease;
-  }
-  
-  .form button:hover {
-    background: linear-gradient(45deg, #ff69b4, #ff1493);
-  }
-  
-  .result {
-    margin-top: 20px;
-    font-size: 1.5rem;
-    color: #fff;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  }
-  
+}

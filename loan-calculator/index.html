@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern and interactive loan calculator web app by Ajay Dhangar. Calculate your monthly payments, total payment, and total interest with ease.">
+    <meta name="author" content="Ajay Dhangar">
+    <meta name="keywords" content="Loan Calculator, Loan, Finance, Calculator, Ajay Dhangar">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>Loan Calculator</h1>
+        </header>
+        <main>
+            <form id="loan-form" class="form">
+                <div class="form-group">
+                    <label for="amount">Loan Amount</label>
+                    <input type="number" id="amount" class="form-control" placeholder="Loan Amount" required>
+                </div>
+                <div class="form-group">
+                    <label for="interest">Interest Rate</label>
+                    <input type="number" id="interest" class="form-control" placeholder="Interest Rate" required>
+                </div>
+                <div class="form-group">
+                    <label for="years">Years To Repay</label>
+                    <input type="number" id="years" class="form-control" placeholder="Years To Repay" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Calculate</button>
+                </div>
+            </form>
+
+            <div id="results" class="results hidden">
+                <h3>Results</h3>
+                <div class="result-group">
+                    <label for="monthly-payment">Monthly Payment</label>
+                    <input type="number" id="monthly-payment" class="form-control" disabled>
+                </div>
+                <div class="result-group">
+                    <label for="total-payment">Total Payment</label>
+                    <input type="number" id="total-payment" class="form-control" disabled>
+                </div>
+                <div class="result-group">
+                    <label for="total-interest">Total Interest</label>
+                    <input type="number" id="total-interest" class="form-control" disabled>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Designed by Ajay Dhangar</p>
+        </footer>
+    </div>
+
+    <script src="./src.js"></script>
+    
+</body>
+</html>

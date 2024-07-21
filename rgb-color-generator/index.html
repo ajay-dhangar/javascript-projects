@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Generate RGB and Hex color codes easily with our RGB Color Generator. Designed by Ajay Dhangar.">
+    <meta name="keywords" content="RGB Color Generator, Hex Color Code, Color Picker, Ajay Dhangar">
+    <meta name="author" content="Ajay Dhangar">
+    <title>RGB Color Generator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header">
+            <h1>RGB Color Generator</h1>
+        </header>
+        <main>
+            <form id="rgb-form" class="form">
+                <div class="form-group">
+                    <label for="red">Red</label>
+                    <input type="number" id="red" class="form-control" placeholder="0" min="0" max="255" required>
+                </div>
+                <div class="form-group">
+                    <label for="green">Green</label>
+                    <input type="number" id="green" class="form-control" placeholder="0" min="0" max="255" required>
+                </div>
+                <div class="form-group">
+                    <label for="blue">Blue</label>
+                    <input type="number" id="blue" class="form-control" placeholder="0" min="0" max="255" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Generate</button>
+                </div>
+            </form>
+
+            <div id="results" class="results hidden">
+                <h3>Results</h3>
+                <div class="result-group">
+                    <label for="rgb-result">RGB</label>
+                    <input type="text" id="rgb-result" class="form-control" disabled>
+                </div>
+                <div class="result-group">
+                    <label for="hex-result">Hex</label>
+                    <input type="text" id="hex-result" class="form-control" disabled>
+                </div>
+                <div class="color-display" id="color-display"></div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Designed by <a href="https://www.linkedin.com/in/ajay-dhangar/" target="_blank">Ajay Dhangar</a></p>
+        </footer>
+    </div>
+
+    <script src="./src.js"></script>
+    
+</body>
+</html>
