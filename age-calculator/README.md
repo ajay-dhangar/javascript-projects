@@ -148,4 +148,4 @@ After setting up the project on your local machine, and writing the necessary co
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.

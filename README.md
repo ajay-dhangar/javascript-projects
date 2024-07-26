@@ -1,9 +1,9 @@
 # JavaScript Projects per Day Learning Path
 
-- [x] **Day 1:** Love Calculator App 🧮
-- [x] **Day 2:** BMI Calculator App 🧮
-- [x] **Day 3:** Loan Calculator App 💰
-- [ ] **Day 4:** Weather App 🌦️
+- [x] **Day 1:** Love Calculator App 🧮 [Task](./love-calculator)
+- [x] **Day 2:** BMI Calculator App 🧮 [Task](./bmi-calculator)
+- [x] **Day 3:** Loan Calculator App 💰 [Task](./loan-calculator/)
+- [ ] **Day 4:** Weather App 🌦️ 
 - [x] **Day 5:** Counter App 🔢
 - [ ] **Day 6:** Countdown Timer App ⏳
 - [x] **Day 7:** Palindrome Checker App 🔄

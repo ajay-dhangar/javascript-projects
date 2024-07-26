@@ -6,8 +6,6 @@ The Counter App is a simple web application that allows users to increment, decr
 
 ## Screenshots of the Project
 
-
-
 https://github.com/user-attachments/assets/2cfeef1d-54d6-4beb-8ee2-ffcb3e29b528
 
 ## Objectives
@@ -151,4 +149,4 @@ After setting up the project on your local machine and writing the necessary cod
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](../LICENSE) file for details.
