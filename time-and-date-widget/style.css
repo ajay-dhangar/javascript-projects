@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.landing-page {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.landing-page h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.landing-page p {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.landing-page button {
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.landing-page button:hover {
+    background-color: #0056b3;
+}
+
+.time-date-widget {
+    text-align: center;
+    font-size: 2em;
+    animation: slideIn 1s ease-out;
+}
+
+.time-date-widget.hidden {
+    display: none;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

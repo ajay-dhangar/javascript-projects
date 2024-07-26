@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A modern, dynamic Tips Calculator app by Ajay Dhangar. Calculate tips effortlessly with an interactive UI and smooth animations.">
+    <meta name="keywords" content="Tips Calculator, Ajay Dhangar, Web App, Interactive UI, Animations">
+    <meta name="author" content="Ajay Dhangar">
+    <title>Tips Calculator by Ajay Dhangar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="landing-page">
+        <h1>Welcome to the Tips Calculator</h1>
+        <p>Calculate your tips with ease and precision.</p>
+        <button id="start-btn">Start Calculating</button>
+    </div>
+
+    <div class="container hidden">
+        <h1>Tip Calculator</h1>
+        <form id="tip-form">
+            <label for="bill-amount">Bill Amount</label>
+            <input type="number" name="bill-amount" id="bill-amount" required>
+            <label for="tip-percentage">Tip Percentage</label>
+            <input type="number" name="tip-percentage" id="tip-percentage" required>
+            <button type="submit">Calculate</button>
+        </form>
+    </div>
+
+    <div class="result hidden">
+        <h2>Results</h2>
+        <p>Tip Amount: <span id="tip-amount">0.00</span></p>
+        <p>Total Amount: <span id="total-amount">0.00</span></p>
+    </div>
+
+    <script src="./src.js"></script>
+</body>
+</html>
