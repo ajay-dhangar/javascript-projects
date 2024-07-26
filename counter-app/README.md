@@ -6,7 +6,9 @@ The Counter App is a simple web application that allows users to increment, decr
 
 ## Screenshots of the Project
 
-![Counter App](video.mp4)
+
+
+https://github.com/user-attachments/assets/2cfeef1d-54d6-4beb-8ee2-ffcb3e29b528
 
 ## Objectives
 - To practice creating and structuring an HTML document.
