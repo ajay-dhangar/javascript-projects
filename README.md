@@ -3,7 +3,7 @@
 - [x] **Day 1:** Love Calculator App 🧮
 - [x] **Day 2:** BMI Calculator App 🧮
 - [x] **Day 3:** Loan Calculator App 💰
-- [x] **Day 4:** Weather App 🌦️
+- [ ] **Day 4:** Weather App 🌦️
 - [x] **Day 5:** Counter App 🔢
 - [ ] **Day 6:** Countdown Timer App ⏳
 - [x] **Day 7:** Palindrome Checker App 🔄
